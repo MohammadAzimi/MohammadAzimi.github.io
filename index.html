@@ -19,6 +19,8 @@
 			text-align: center;
 			font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
 		}
+		a:link { color: rgb(17, 16, 16); }
+		a​:visited { color: rgb(41, 41, 41); }
 		.container{
 			height: 100vh;
 			display: flex;
@@ -39,6 +41,19 @@
 			text-align: center;
 			font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
 		}
+		.fa--link {
+			/* padding-inline: 20px; */
+			font-size: 1.2em;
+			width: 30px;
+			text-align: center;
+			text-decoration: none;
+			margin-left: 8px;
+			margin-right: 8px;
+			/* border-radius: 50%; */
+		}
+		.fa--link:hover {
+			opacity: 0.7;
+		}
 	</style>
 </head>
 <body>
@@ -48,8 +63,16 @@
 			<i class="fa fa-heart" style="font-size:1.1em;"></i> Stay tuned :)
 			<i class="fa fa-heart" style="font-size:1.1em;"></i>
 		</p>
-		<address style="margin-top:2%;">Mohammad Azimi</address>
-		<p style="font-size:1em;">Thanks github <i class="fa fa-github-alt" style="font-size:1.1em;"></i></p>		
+		<address style="margin-top:32px; margin-bottom:16px;">Mohammad Azimi</address>
+		<div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
+			<a href="https://www.linkedin.com/in/mohammadazimi" class="fa fa-linkedin fa--link"></a>
+			<a href="https://stackoverflow.com/users/7178860/mohammad" class="fa fa-stack-overflow fa--link"></a>
+			<a href="https://github.com/MohammadAzimi" class="fa fa-github fa--link"></a>
+			<a href="https://instagram.com/mh_az97" class="fa fa-instagram fa--link"></a>
+			<a href="https://twitter.com/MohammadAzimi97" class="fa fa-twitter fa--link"></a>
+			<a href="mailto:mohammadazimi91@gmail.com" class="fa fa-at fa--link"></a>
+		</div>		
 	</div>
+	<p style="font-size:0.7em; position:absolute; bottom: 8px; left:0; right: 0;">powered by github pages <i class="fa fa-github-alt" style="font-size:0.9em;"></i></p>		
 </body>
 </html>
